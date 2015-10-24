@@ -1,24 +1,52 @@
+<!DOCTYPE HTML>
 <!-- Portfolio Zipline based on Free Code Camp
      Author:     Huynh Van Tu An
      University: National University of Singapore
      Versions:   1.0 - Sunday, 18th October 2015
 -->
-<head>
-  <title>Shadruah - Soul Santuary</title>
-  <!-- Adding Bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bevan&effect=3d">
+<html>
+<!DOCTYPE html>
+<html><head>
+<title>Shadruah - Soul Santuary</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="HTML KickStart is a ultra–lean set of HTML5, CSS, and jQuery (javascript) files, layouts, and elements designed to give you a headstart and save you a lot of hours on your next web project." />
+<meta name="copyright" content="Joshua Gatcke 99lime.com All Rights Reserved" />
+<!--Local Styling-->
   <link rel="stylesheet" href="Shadruah.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                  <!-- KICKSTART -->
+<!--<link rel="stylesheet" type="text/css" href="style.css" media="all" />-->                          <!-- CUSTOM STYLES -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/kickstart.js"></script>                                 <!-- KICKSTART -->
+
+
+	<!--Google Font API-->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine|Lobster">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bevan&effect=3d">
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+<!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+
+<!-- Adding Bootstrap-->
+ <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	
-  </head>
+  
+</head>
 
 <body>
-	<!---NavBar--->
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
+	
+  <!---NavBar--->
+	<nav class="navbar navbar-default navbar-fixed-top" >
+  <div class="container-fluid topnav">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,8 +55,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand topnav" href="#navigationbar"><img alt="My avatar" src="avatar.jpg" height="30px"></a>
-	  <a class="navbar-brand" href="#name" target ="_blank">Huynh Van Tu An</a>
+     
+	  <a class="navbar-brand" href="http://arishuynhvan.github.io/Shadruah/" target ="_blank" style="padding-top: 20px; color:#FFFDE7">Huynh Van Tu An</a>
     </div>
 	<div class="collapse navbar-collapse" id="nav-bar">
 		<ul class="nav navbar-nav navbar-right">
@@ -43,51 +71,108 @@
             </li>
           </ul>
 	</div>
-	<div class="jumbotron">
-    <div class="font-effect-3d"><h2>SHADRUAH</h2></div>
-    <p>
-      I'm a <a href='http://freecodecamp.com/arishuynhvan' target='_blank'>coder</a>.
-    </p>
+	</nav>
+	
+	
+	<!--Main Elements-->
+	<div class="intro-header">
+	
+	<div class="bg-overlay">
+	<div class="container-fluid">
+    <div class="intro-message">
+        <div class=" font-effect-3d"id="home"><h1 style="padding-top: 250px; font-size:100px">SHADRUAH</h1></div>
+        <h3 >Rising To Empower Lives</h3>
+                        </div>
+						<hr class="intro-divider">
+						<div class="row">
+						<div class="col-lg-5 col-lg-offset-1 col-sm-6">
+   <ul style="padding-top:35px">
+       <li>Self-trained web designer and developer in <a href='http://freecodecamp.com/arishuynhvan' target='_blank' style="color: #E1BEE7">FreeCodeCamp</a></li>
+	   <li>Aspired to make impactful changes to the society through <br/>volunteering with non-profit organizations in the near future</li>
+		<li>Interested in the developing low-cost devices for assisting <br/>daily activities or prototypes for scientific and engineering education</li>
+		<li>My skills: PS, HTML, CSS, JS, BS3, C, Python, Java, SolidWorks</li>
+    </ul> 
+	</div>
+	<div class="col-lg-5 col-lg-offset-3 col-sm-6 collapse navbar-collapse">
+                    <img class="img-circle img-responsive" src="Avatar.jpg" alt="My avatar">
+                </div>
   </div>
-  <div class="row">
-    <div class="col-md-4">
-      <h2>						Heading					</h2>
-      <img class='img-responsive' src='http://i.imgur.com/jESF2.jpg'>
-      <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h2>						Heading					</h2>
-      <img class='img-responsive' src='http://i.imgur.com/jESF2.jpg'>
-      <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h2>						Heading					</h2>
-      <img class='img-responsive' src='http://i.imgur.com/jESF2.jpg'>
-      <p>
-        Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
-      </p>
-    </div>
+  
   </div>
-  <div class='jumbotron'>
-    <h2 class='text-center'>Contact me</h2>
-    <div class='row'>
-      <div class='col-md-3'>
-        <button class='btn btn-block' href='#' target='_blank'><a href='https://twitter.com/ArisHuang2' target='_blank'>Twitter</a></button>
-      </div>
-      <div class='col-md-3'>
-        <button class='btn btn-block' href='#' target='_blank'><a href='https://sg.linkedin.com/pub/huynh-van-tu-an/31/795/741' target='_blank'>LinkedIn</a></button>
-      </div>
-      <div class='col-md-3'>
-        <button class='btn btn-block' href='#' target='_blank'><a href='https://github.com/arishuynhvan' target='_blank'>GitHub</a></button>
-      </div>
-      <div class='col-md-3'>
-        <button class='btn btn-block' href='#' target='_blank'><a href='http://freecodecamp.com/arishuynhvan' target='_blank'>Free Code Camp</button>
-      </div>
-    </div>
   </div>
 </div>
+	
+  <!--For future projects-->
+ 
+
+  <section id="portfolio" class="bg-light-gray bounds"> 
+  <div class="container-fluid">
+  <div class="bg-overlay">
+ 
+  <h3 class=" font-effect-3d" style="padding-top: 250px; font-size:50px">My Future Projects</h3></br>
+   <p style="text-shadow: 1px 1px 1px rgba(0,0,0,0.6); color: black;  text-shadow: 2px 1px 2px #000;  font-size:30px;" >To be completed by the end of 2015
+  </p>
+  <div class=" col-lg-12 col-sm-12">
+ 
+<ul class="bxslider" >
+    <li>
+        <img src="http://bxslider.com/images/730_200/hill_trees.jpg" />
+        <div class="bx-wrapper bx-caption"> 
+            <span>Project 1</span>
+            <div class=" bx-wrapper bx-viewport"><a href="#">Random Quote Machine</a></div>
+        </div></li>
+   <li>
+       <img src="http://bxslider.com/images/730_200/me_trees.jpg" />
+       <div class="bx-wrapper bx-caption"> <span>Project 2</span>
+	   <div class="  bx-wrapper bx-viewport"><a  href="#">Pomodoro Clock</a></div>
+	   </div>
+	   </li>
+	   
+   <li>
+        <img src="http://bxslider.com/images/730_200/houses.jpg" />  
+        <div class="bx-wrapper bx-caption"><span> Project 3</span>
+		<div class=" bx-wrapper bx-viewport"><a href="#">Javascript Calculator</a></div></div>
+		
+		</li>
+    
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!--Contact-->
+
+	
+	
+	<div class="bg-overlay">
+	<div class="contact-info">
+	<div class=" font-effect-3d"id="contact"><h1 style="padding-top: 250px; font-size:50px">Contact me</h1></div>
+    <div class="container">
+    <div class='row'>
+      <div class='col-md-3'>
+        <button class='btn btn-sm btn-block ' href='#' target='_blank'><a href='https://twitter.com/ArisHuang2' target='_blank'>Twitter</a></button>
+      </div>
+      <div class='col-md-3 '>
+        <button class='btn btn-block btn-sm' href='#' target='_blank'><a href='https://sg.linkedin.com/pub/huynh-van-tu-an/31/795/741' target='_blank'>LinkedIn</a></button>
+      </div>
+      <div class='col-md-3 '>
+        <button class='btn btn-block btn-sm' href='#' target='_blank'><a href='https://github.com/arishuynhvan' target='_blank'>GitHub</a></button>
+      </div>
+      <div class='col-md-3  '>
+        <button class='btn btn-block btn-sm' href='#' target='_blank'><a href='http://freecodecamp.com/arishuynhvan' target='_blank' style="text-align:centre;">FreeCodeCamp</button>
+      </div>
+    </div>
+ 
+</div>
+</div>
+</div>
+
+
+<!--Contact me-->
+
+
 </body>
+
+
+</html>
