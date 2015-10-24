@@ -7,6 +7,7 @@ This project refers to Mr. Thiago Fereira's project (http://codepen.io/ThiagoFer
 Also, it applies the framework of Bootsrap3 and slider of bxslider which provides a simpler look compared to the former's carousel.
 
 Version 1.1: committed on 19 October 2015
+
 Version 2.0: comitted on 25 October 2015
 
 Fulfilled the following user storieas:
